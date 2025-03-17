@@ -186,3 +186,19 @@ for i in range(0, len(keys), 2):  # Step by 2 to create rows
                     """,
                     unsafe_allow_html=True
                 ) 
+# Add link to PDF at the bottom
+st.markdown("""
+    <hr>
+    <div style='text-align: center;'>
+        <a href='https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/Generative-AI.pdf' target='_blank' 
+        style='font-size: 20px; color: #1E3A8A; text-decoration: none; font-weight: bold;'>📄 للمزيد الذكاء الاصطناعي التوليدي اضغط هنا</a>
+    </div>
+""", unsafe_allow_html=True)
+
+
+# Footer section
+st.markdown("""
+    <div style='text-align: center; padding-top: 20px; font-size: 16px; color: #1E3A8A;'>
+        &copy; 2025 SDAIA & Emtnan | جميع الحقوق محفوظة
+    </div>
+""", unsafe_allow_html=True)
